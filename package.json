@@ -2,6 +2,9 @@
   "name": "buscagithub",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.4.0"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -29,5 +32,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "precache-manifest.1170521c990fd1f0ced57f8dcdf17e2d.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitGilson/desafioconcrete.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitGilson/desafioconcrete/issues"
+  },
+  "homepage": "https://github.com/GitGilson/desafioconcrete#readme"
 }
