@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Monaco");
-
  .Home {
- 
   width: 1152px;
   height: 700px;
   background-color: var(white);
@@ -21,8 +18,10 @@
   color: #000000;
   margin: auto;
   text-align: center;
-}
-
+  font-family:Raleway-ExtraLightItalic;
+   }
+  
+ 
 .Github-Search .text-style-1 {
   font-family: Raleway;
   font-weight: 200;
@@ -51,21 +50,6 @@
     background-color: #ac53f2;
   }
 
-.errorText {
-  color: #ac53f2;
-  width: 315px;
-  height: 41px;
-  font-family: Raleway;
-  font-size: 40px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  margin: auto;
-  text-align: center;
- 
-}
 
 .formContainer {
   margin: auto;
@@ -104,7 +88,7 @@
   cursor: pointer;
 }
 
-.repoListContainer {
+.repoListContainer{
   /* background: #f5f5f5; */
   display: flex;
   padding: 30px;
@@ -117,7 +101,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  width: 27%;
+  width:60%;
   background: #fff;
   height: 90px;
   padding: 20px;
@@ -128,12 +112,12 @@
 }
 
 .repoItemContainer > span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: normal;
   color: #000;
 }
 
-.repoItemContainer > span:first-child {
+.repoItemContainer> span:first-child {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -216,4 +200,101 @@
   .searchButton {
     width: 90px;
   }
+}
+.Text-Style-3 {
+  font-family: Monaco;
+  font-size: 60px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.Text-Style {
+  font-family: Raleway;
+  font-size: 60px;
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.Github {
+  font-family: Monaco;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.Search {
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.Repos {
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ac53f2;
+}
+.UserName {
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.Text-Style-2 {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+details {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--brownish-grey);
+}
+
+.errorText {
+  color: #ac53f2;
+  width: 315px;
+  height: 41px;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin: auto;
+  text-align: center;
+ 
 }
