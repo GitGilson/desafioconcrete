@@ -6,7 +6,7 @@
 }
 
 .Github-Search {
-  width: 415px;
+  width: 915px;
   height: 81px;
   font-family: Monaco;
   font-size: 60px;
@@ -17,6 +17,7 @@
   letter-spacing: normal;
   color: #000000;
   margin: auto;
+  margin-bottom: 8px;
   text-align: center;
   font-family:Raleway-ExtraLightItalic;
    }
